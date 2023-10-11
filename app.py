@@ -14,6 +14,9 @@ DB_NAME =  os.environ.get("DB_NAME")
 client = MongoClient(MONGODB_URI)
 
 db = client[DB_NAME]
+import requests
+from bs4 import BeautifulSoup
+
 
 
 
